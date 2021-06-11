@@ -45,7 +45,7 @@ class Event:
 		                 self.date, self.time, self.day_no])
 
 
-loc = 'C:\\Users\\x\\Documents\\Jobs\\NESTA\\0000001_90001_0_0.wav.RData.metashort.gz'
+loc = 'C:\\Users\\x\\Data'
 
 def func(file_loc):
 	file = pd.read_table(file_loc, compression = 'gzip')
